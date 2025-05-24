@@ -1,0 +1,30 @@
+h4{
+    font-style: italic;
+    background-color:  aquamarine;
+    position: relative;
+    top: 20%;
+   font-size: large;
+}
+body{
+    background-color: darkcyan;
+}
+fieldset{
+    background-color: aquamarine;
+    
+}
+input{
+    min-width: 20px;
+    border-radius: 30px;
+}
+option{
+    text-align: left;
+}
+h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: ;
+}
+p{
+    text-align: inherit;
+    top: 50%;
+}
