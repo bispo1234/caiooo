@@ -1,57 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>site de formulario</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Formulário de Inscrição</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h4>formulario</h4>
-<fieldset><value="enviar">
-  <label for="fname">nome</label>
-  <input type="text" id="fname" name="fname" value="">
-  
-  <value="enviar">
-  <label for="lname"> idade </label>
-  <input type="text" id="lname" name="lname" value=""><br>
 
-  <br><value="enviar">
-  <label for="lname"> sexo </label>
-  <input type="text" id="lname" name="lname" value="">
+  <header>
+    <h1>TechFuture Summit</h1>
+    <p>Conectando inovação, impulsionando o futuro!</p>
+    <img src="https://i.imgur.com/vFPHsTl.png" alt="logo" width="150" style="float: left; opacity: 0.4;" />
+  </header>
 
-  <value="enviar">
-  <label for="lname"> altura </label>
-  <input type="text" id="lname" name="lname" value=""size="20"></fieldset>
+  <main>
+    <section>
+      <h2>Formulário de Inscrição</h2>
+      <form action="salvar.php" method="post" class="formulario">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
 
-  <h4>endereço</h4>
-  <fieldset>
-    <value="enviar">
-        <label for="fname">Rua</label><br>
-        <input type="text" id="fname" name="fname" value=""size= "15">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
 
-        <label for="fname">Bairro</label>
-        <input type="text" id="fname" name="fname" value=""size= "18"> <br>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required />
 
-        <label for="fname"> numero</label> </label><br>
-        <input type="text" id="fname" name="fname" value=""size= "15">
+        <label for="area">Área de Interesse:</label>
+        <input type="text" id="area" name="area" required />
 
-        <label for="fname">cidade</label>
-        <input type="text" id="fname" name="fname" value=""size= "18"><br>
+        <label for="obs">Observações:</label>
+        <textarea id="obs" name="obs" rows="4"></textarea>
 
-        <label for="fname">Bairro</label><br>
-        <input type="text" id="fname" name="fname" value=""size= "15">
+        <button type="submit" class="cta-button">Enviar</button>
+        <a href="index.html" class="cta-button">Voltar</a>
+      </form>
+    </section>
+  </main>
 
-        <label for="cars">estado civil:</label>
-        <select id="cars" name="cars">
-          <option value="volvo">solteiro</option>
-          <option value="saab">casado</option>
-          <option value="fiat">viuvo</option>
-          <option value="audi">divorciado</option>
-        </select>
-
-
-  </fieldset>
-
-</form>
 </body>
 </html>

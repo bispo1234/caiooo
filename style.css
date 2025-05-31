@@ -1,30 +1,106 @@
-h4{
-    font-style: italic;
-    background-color:  aquamarine;
-    position: relative;
-    top: 20%;
-   font-size: large;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f3fa;
+  color: #2c2c54;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-body{
-    background-color: darkcyan;
+
+header {
+  background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/5182592-tecnologia-fundo-roxo-color-ilustracao-gratis-vetor.jpg);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
 }
-fieldset{
-    background-color: aquamarine;
-    
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
 }
-input{
-    min-width: 20px;
-    border-radius: 30px;
+
+header p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #d1c4e9;
 }
-option{
-    text-align: left;
+
+main {
+  flex: 1;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(90, 42, 131, 0.3);
 }
-h2{
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: ;
+
+section {
+  padding: 30px 20px;
+  border-bottom: 1px solid #e0d7f5;
 }
-p{
-    text-align: inherit;
-    top: 50%;
+
+section:last-child {
+  border: none;
+}
+
+h2 {
+  color: #5a2a83;
+  margin-bottom: 15px;
+}
+
+.cta-button {
+  display: inline-block;
+  flex: 1;
+  text-align: center;
+  margin: 15px 5px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #7e57c2;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(126, 87, 194, 0.4);
+}
+
+.cta-button:hover {
+  background-color: #5e35b1;
+  box-shadow: 0 6px 15px rgba(94, 53, 177, 0.6);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario label {
+  margin-top: 10px;
+  color: #403472;
+  font-weight: 600;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #3f2c65;
+  color: #d1c4e9;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
+main{
+  background-color: #7e57c2;
+  color: white;
 }
